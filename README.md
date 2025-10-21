@@ -23,3 +23,9 @@ Setting up environment:
     pip install -r zephyr/scripts/requirements.txt
     pip install -r nrf/scripts/requirements.txt
 ```
+
+* Sätt miljövariabler
+```
+$env:ZEPHYR_TOOLCHAIN_VARIANT = "gnuarmemb"
+$env:GNUARMEMB_TOOLCHAIN_PATH = "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10"
+```
