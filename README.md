@@ -28,4 +28,11 @@ Setting up environment:
 ```
 $env:ZEPHYR_TOOLCHAIN_VARIANT = "gnuarmemb"
 $env:GNUARMEMB_TOOLCHAIN_PATH = "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10"
+$env:BOARD_ROOT = "C:\Users\david.levy\ncs\cwatch"
+```
+
+* bygg
+```
+west build -b nrf52840_cwatch_board .
+
 ```
